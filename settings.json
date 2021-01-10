@@ -15,8 +15,8 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
-        "**/.DS_Store": true,
-        "node_modules": true
+        "**/.DS_Store": true
+        //        "node_modules": true
     },
     //
     "explorer.confirmDelete": false,
@@ -50,6 +50,7 @@
     "material-icon-theme.folders.associations": {
         "infra": "app",
         "entities": "class",
+        "domain": "class",
         "schemas": "class",
         "typeorm": "database",
         "repositories": "mappings",
@@ -61,7 +62,14 @@
         "fakes": "mock",
         "websockets": "pipe",
         "protos": "pipe",
-        "grpc": "pipe"
+        "grpc": "pipe",
+        "providers": "include",
+        "subscribers": "messages",
+        "useCases": "controller",
+        "kafka": "scripts",
+        "mappers": "meta",
+        "_shared": "shared",
+        "eslint-config": "tools"
     },
     "material-icon-theme.files.associations": {
         "ormconfig.json": "database",
