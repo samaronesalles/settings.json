@@ -1,0 +1,71 @@
+{
+    "terminal.integrated.fontSize": 14,
+    //
+    "breadcrumbs.enabled": true,
+    //
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    //
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules": true
+    },
+    //
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    //
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "njk": "html",
+        "javascript": "javascriptreact"
+    },
+    //
+    "extensions.ignoreRecommendations": true,
+    //
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "workbench.editor.labelFormat": "short",
+    "workbench.startupEditor": "newUntitledFile",
+    //
+    "window.zoomLevel": 1,
+    //
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    //
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.tsserver.log": "verbose",
+    "typescript.suggest.autoImports": true,
+    //
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe"
+    },
+    "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+        "*.proto": "3d"
+    },
+}
